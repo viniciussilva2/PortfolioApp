@@ -25,7 +25,7 @@ export default function BannerPrincipal() {
             <ExternalLink size={20} /> LinkedIn
           </a>
           <a href="vinyoli.vs@gmail.com" className="glass" style={{ padding: '0.8rem 1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', color: 'white' }}>
-            <Mail size={20} /> Contato
+            <Mail size={20} /> Contato via E-mail
           </a>
         </div>
       </motion.div>
