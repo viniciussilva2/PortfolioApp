@@ -35,3 +35,4 @@ C:\Users\vinyo\.gemini\antigravity\scratch\PortfolioApp\PortfolioApp.Api\obj\Deb
 C:\Users\vinyo\.gemini\antigravity\scratch\PortfolioApp\PortfolioApp.Api\obj\Debug\net10.0\PortfolioApp.Api.genruntimeconfig.cache
 C:\Users\vinyo\.gemini\antigravity\scratch\PortfolioApp\PortfolioApp.Api\obj\Debug\net10.0\ref\PortfolioApp.Api.dll
 C:\Users\vinyo\.gemini\antigravity\scratch\PortfolioApp\PortfolioApp.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\vinyo\.gemini\antigravity\scratch\PortfolioApp\PortfolioApp.Api\obj\Debug\net10.0\PortfolioApp.Api.sourcelink.json
