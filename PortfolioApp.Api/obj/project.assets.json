@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "Microsoft.AspNetCore.OpenApi/10.0.1": {
@@ -504,11 +504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyo\\.gemini\\antigravity\\scratch\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
       "projectName": "PortfolioApp.Api",
-      "projectPath": "C:\\Users\\vinyo\\.gemini\\antigravity\\scratch\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
+      "projectPath": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
       "packagesPath": "C:\\Users\\vinyo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyo\\.gemini\\antigravity\\scratch\\PortfolioApp\\PortfolioApp.Api\\obj\\",
+      "outputPath": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -527,6 +527,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -541,10 +542,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
@@ -575,7 +577,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -992,5 +994,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.OpenApi' 2.4.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

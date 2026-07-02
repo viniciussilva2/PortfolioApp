@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9wRteA7x8A=",
+  "dgSpecHash": "Q39cx/fifcQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinyo\\.gemini\\antigravity\\scratch\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinyo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\vinyo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
@@ -12,5 +12,18 @@
     "C:\\Users\\vinyo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
     "C:\\Users\\vinyo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "O pacote 'Microsoft.OpenApi' 2.4.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\vinyo\\Documents\\GitHub\\PortfolioApp\\PortfolioApp.Api\\PortfolioApp.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

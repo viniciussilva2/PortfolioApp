@@ -37,7 +37,7 @@ export default function SecaoExperiencia() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
               <div>
                 <h3 style={{ fontSize: '1.5rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>{exp.cargo}</h3>
-                <h4 style={{ fontSize: '1.2rem', color: 'white', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <h4 style={{ fontSize: '1.2rem', color: 'var(--text-main)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                   <Briefcase size={18} /> {exp.empresa}
                 </h4>
               </div>
@@ -74,3 +74,4 @@ export default function SecaoExperiencia() {
     </section>
   );
 }
+

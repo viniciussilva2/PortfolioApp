@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Code2 } from 'lucide-react';
 
 export default function SecaoProjetos() {
     const [projetos, setProjetos] = useState([]);
@@ -28,7 +27,8 @@ export default function SecaoProjetos() {
   }, []);
 
   return (
-        <section id="projetos" style={{ padding: '5rem 2rem', background: 'linear-gradient(180deg, #0a0a0a 0%, #111 100%)' }}>
+        <section id="projetos" style={{ padding: '5rem 2rem', background: 'var(--section-bg)' }}>
+          <motion.div style={{ maxWidth: '1100px', margin: '0 auto' }}>
                 <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
                           <motion.div
                                       initial={{ opacity: 0, y: 30 }}
@@ -37,10 +37,16 @@ export default function SecaoProjetos() {
                                       viewport={{ once: true }}
                                       style={{ textAlign: 'center', marginBottom: '3rem' }}
                                     >
-                                    <h2 style={{ fontSize: '2.2rem', fontWeight: 700, color: '#fff', marginBottom: '0.5rem' }}>
+                                    <h2 style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-main)', marginBottom: '0.5rem' }}>
                                                 Projetos em Destaque
-                                    </h2h2>
-                                    <p style={{ color: '#888', fontSize: '1rem' }}>Repositorios publicos do GitHub</>p>
-                          </motion.dimotion.div>
-                </motion.div>
-    
+                                    </h2>
+                                    <p style={{ color: 'var(--text-dim)', fontSize: '1rem' }}>Repositorios publicos do GitHub</p>
+                          </motion.div>
+                </div>
+          </motion.div>
+        </section>
+  );
+}
+
+
+
